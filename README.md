@@ -1,4 +1,4 @@
-### dbt models for [your org/project name]
+### dbt models for Run With Al
 
 ---
 - [What is dbt](https://dbt.readme.io/docs/overview)?
