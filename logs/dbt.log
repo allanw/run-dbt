@@ -1150,3 +1150,28 @@ limit 100
 2020-08-07 01:22:09,523864 (Thread-179): handling status request
 2020-08-07 01:22:09,525549 (Thread-179): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa5c6710>]}
 2020-08-07 01:22:09,549409 (Thread-179): sending response (<Response 1066 bytes [200 OK]>) to 10.0.25.254
+2020-08-07 01:22:16,11468 (Thread-180): Acquiring new postgres connection "model.my_new_package.my_first_dbt_model".
+2020-08-07 01:22:16,13238 (Thread-180): Opening a new connection, currently in state init
+2020-08-07 01:22:16,649919 (Thread-181): handling status request
+2020-08-07 01:22:16,650442 (Thread-181): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa574668>]}
+2020-08-07 01:22:16,673457 (Thread-181): sending response (<Response 183 bytes [200 OK]>) to 10.0.36.215
+2020-08-07 01:22:17,457311 (Thread-180): Acquiring new postgres connection "model.my_new_package.trackers".
+2020-08-07 01:22:17,457470 (Thread-180): Re-using an available connection from the pool (formerly model.my_new_package.my_first_dbt_model).
+2020-08-07 01:22:17,467568 (Thread-180): Acquiring new postgres connection "model.my_new_package.run".
+2020-08-07 01:22:17,467720 (Thread-180): Re-using an available connection from the pool (formerly model.my_new_package.trackers).
+2020-08-07 01:22:17,477888 (Thread-180): Acquiring new postgres connection "model.my_new_package.responses".
+2020-08-07 01:22:17,478016 (Thread-180): Re-using an available connection from the pool (formerly model.my_new_package.run).
+2020-08-07 01:22:17,488643 (Thread-180): Acquiring new postgres connection "model.my_new_package.survey_details".
+2020-08-07 01:22:17,488775 (Thread-180): Re-using an available connection from the pool (formerly model.my_new_package.responses).
+2020-08-07 01:22:18,83115 (Thread-182): handling status request
+2020-08-07 01:22:18,83622 (Thread-182): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa765cc0>]}
+2020-08-07 01:22:18,107836 (Thread-182): sending response (<Response 3256 bytes [200 OK]>) to 10.0.7.194
+2020-08-07 01:23:07,926005 (Thread-183): Got an acceptable cached parse result
+2020-08-07 01:23:07,952512 (Thread-183): Acquiring new postgres connection "model.my_new_package.trackers".
+2020-08-07 01:23:07,952653 (Thread-183): Re-using an available connection from the pool (formerly model.my_new_package.survey_details).
+2020-08-07 01:23:08,307842 (Thread-184): handling status request
+2020-08-07 01:23:08,308362 (Thread-184): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa548ba8>]}
+2020-08-07 01:23:08,332137 (Thread-184): sending response (<Response 1072 bytes [200 OK]>) to 10.0.8.17
+2020-08-07 01:23:26,363653 (Thread-185): handling status request
+2020-08-07 01:23:26,365406 (Thread-185): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa548a20>]}
+2020-08-07 01:23:26,387951 (Thread-185): sending response (<Response 1072 bytes [200 OK]>) to 10.0.46.211
