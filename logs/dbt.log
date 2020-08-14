@@ -1175,3 +1175,939 @@ limit 100
 2020-08-07 01:23:26,363653 (Thread-185): handling status request
 2020-08-07 01:23:26,365406 (Thread-185): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa548a20>]}
 2020-08-07 01:23:26,387951 (Thread-185): sending response (<Response 1072 bytes [200 OK]>) to 10.0.46.211
+2020-08-07 01:23:33,139538 (Thread-186): Acquiring new postgres connection "model.my_new_package.my_first_dbt_model".
+2020-08-07 01:23:33,141163 (Thread-186): Re-using an available connection from the pool (formerly model.my_new_package.trackers).
+2020-08-07 01:23:33,240258 (Thread-186): Acquiring new postgres connection "model.my_new_package.trackers".
+2020-08-07 01:23:33,240409 (Thread-186): Re-using an available connection from the pool (formerly model.my_new_package.my_first_dbt_model).
+2020-08-07 01:23:33,249548 (Thread-186): Acquiring new postgres connection "model.my_new_package.run".
+2020-08-07 01:23:33,249667 (Thread-186): Re-using an available connection from the pool (formerly model.my_new_package.trackers).
+2020-08-07 01:23:33,258932 (Thread-186): Acquiring new postgres connection "model.my_new_package.responses".
+2020-08-07 01:23:33,259034 (Thread-186): Re-using an available connection from the pool (formerly model.my_new_package.run).
+2020-08-07 01:23:33,267242 (Thread-186): Acquiring new postgres connection "model.my_new_package.survey_details".
+2020-08-07 01:23:33,267342 (Thread-186): Re-using an available connection from the pool (formerly model.my_new_package.responses).
+2020-08-07 01:23:33,489844 (Thread-187): handling status request
+2020-08-07 01:23:33,490353 (Thread-187): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa741a20>]}
+2020-08-07 01:23:33,513668 (Thread-187): sending response (<Response 3295 bytes [200 OK]>) to 10.0.22.37
+2020-08-07 06:58:36,486264 (Thread-188): handling status request
+2020-08-07 06:58:36,486773 (Thread-188): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7415c0>]}
+2020-08-07 06:58:36,511372 (Thread-188): sending response (<Response 3295 bytes [200 OK]>) to 10.0.8.139
+2020-08-07 06:58:36,529683 (Thread-189): handling ps request
+2020-08-07 06:58:36,530055 (Thread-189): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa4e29e8>]}
+2020-08-07 06:58:36,563788 (Thread-189): sending response (<Response 14763 bytes [200 OK]>) to 10.0.8.17
+2020-08-07 06:58:47,832500 (Thread-190): handling status request
+2020-08-07 06:58:47,834655 (Thread-190): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa74b668>]}
+2020-08-07 06:58:47,890545 (Thread-190): sending response (<Response 3295 bytes [200 OK]>) to 10.0.31.210
+2020-08-07 06:58:48,299052 (Thread-191): handling run_sql request
+2020-08-07 06:58:48,299537 (Thread-191): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7de358>]}
+2020-08-07 06:58:48,323267 (Thread-191): Connection 'model.my_new_package.survey_details' was left open.
+2020-08-07 06:58:48,323427 (Thread-191): On model.my_new_package.survey_details: Close
+2020-08-07 06:58:48,329285 (Thread-191): sending response (<Response 136 bytes [200 OK]>) to 10.0.31.124
+2020-08-07 06:58:48,340264 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-07 06:58:48,340691 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-07 06:58:48,685814 (Thread-192): handling poll request
+2020-08-07 06:58:48,686357 (Thread-192): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa5e1ba8>]}
+2020-08-07 06:58:48,712083 (Thread-192): sending response (<Response 1235 bytes [200 OK]>) to 10.0.22.37
+2020-08-07 06:58:49,882324 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-07 06:58:49,883364 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-07 06:58:49,883440 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-07 06:58:50,97562 (Thread-193): handling poll request
+2020-08-07 06:58:50,98070 (Thread-193): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7de0f0>]}
+2020-08-07 06:58:50,124063 (Thread-193): sending response (<Response 1449 bytes [200 OK]>) to 10.0.8.139
+2020-08-07 06:58:51,389126 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-07 06:58:51,401203 (QueueFeederThread): finished collecting timing info
+2020-08-07 06:58:51,401532 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-07 06:58:51,401578 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select * from runs
+limit 100
+2020-08-07 06:58:51,520883 (Thread-194): handling poll request
+2020-08-07 06:58:51,521422 (Thread-194): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa793160>]}
+2020-08-07 06:58:51,545426 (Thread-194): sending response (<Response 1842 bytes [200 OK]>) to 10.0.8.17
+2020-08-07 06:58:51,896267 (QueueFeederThread): Postgres error: relation "runs" does not exist
+LINE 2: select * from runs
+                      ^
+
+2020-08-07 06:58:51,896426 (QueueFeederThread): finished collecting timing info
+2020-08-07 06:58:51,896943 (QueueFeederThread): Got an exception: Database Error
+  relation "runs" does not exist
+  LINE 2: select * from runs
+                        ^
+2020-08-07 06:58:51,897195 (QueueFeederThread): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  relation "runs" does not exist\n  LINE 2: select * from runs\n                        ^', 'raw_sql': 'select * from runs\nlimit 100', 'compiled_sql': 'select * from runs\nlimit 100', 'tags': None}, None)
+2020-08-07 06:58:52,936595 (Thread-195): handling poll request
+2020-08-07 06:58:52,937140 (Thread-195): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7f2710>]}
+2020-08-07 06:58:52,960640 (Thread-195): sending response (<Response 5479 bytes [200 OK]>) to 10.0.32.9
+2020-08-07 06:59:26,802803 (Thread-196): handling status request
+2020-08-07 06:59:26,805142 (Thread-196): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa773ef0>]}
+2020-08-07 06:59:26,831032 (Thread-196): sending response (<Response 3295 bytes [200 OK]>) to 10.0.30.62
+2020-08-07 06:59:27,237196 (Thread-197): handling run_sql request
+2020-08-07 06:59:27,237694 (Thread-197): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7f24e0>]}
+2020-08-07 06:59:27,267137 (Thread-197): sending response (<Response 136 bytes [200 OK]>) to 10.0.14.214
+2020-08-07 06:59:27,277998 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-07 06:59:27,278431 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-07 06:59:27,664894 (Thread-198): handling poll request
+2020-08-07 06:59:27,665529 (Thread-198): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7f24e0>]}
+2020-08-07 06:59:27,692466 (Thread-198): sending response (<Response 1235 bytes [200 OK]>) to 10.0.14.214
+2020-08-07 06:59:28,793474 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-07 06:59:28,794625 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-07 06:59:28,794703 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-07 06:59:29,56924 (Thread-199): handling poll request
+2020-08-07 06:59:29,57467 (Thread-199): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa78dcc0>]}
+2020-08-07 06:59:29,82797 (Thread-199): sending response (<Response 1449 bytes [200 OK]>) to 10.0.8.17
+2020-08-07 06:59:30,197059 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-07 06:59:30,209131 (QueueFeederThread): finished collecting timing info
+2020-08-07 06:59:30,209463 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-07 06:59:30,209510 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select * from analytics.runs
+limit 100
+2020-08-07 06:59:30,446394 (Thread-200): handling poll request
+2020-08-07 06:59:30,446892 (Thread-200): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7f0e80>]}
+2020-08-07 06:59:30,471216 (Thread-200): sending response (<Response 1852 bytes [200 OK]>) to 10.0.31.124
+2020-08-07 06:59:30,902815 (QueueFeederThread): SQL status: SELECT 100 in 0.69 seconds
+2020-08-07 06:59:30,925883 (QueueFeederThread): finished collecting timing info
+2020-08-07 06:59:30,926386 (QueueFeederThread): Got an exception: tuple.index(x): x not in tuple
+2020-08-07 06:59:30,926650 (QueueFeederThread): Got exception RPCException(-32000, Server Error, {'type': 'Exception', 'message': 'tuple.index(x): x not in tuple', 'tags': None}, None)
+2020-08-07 06:59:32,400720 (Thread-201): handling poll request
+2020-08-07 06:59:32,401278 (Thread-201): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7f0898>]}
+2020-08-07 06:59:32,425558 (Thread-201): sending response (<Response 4912 bytes [200 OK]>) to 10.0.37.130
+2020-08-07 07:02:27,697801 (Thread-202): handling status request
+2020-08-07 07:02:27,700072 (Thread-202): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa78d9e8>]}
+2020-08-07 07:02:27,724519 (Thread-202): sending response (<Response 3295 bytes [200 OK]>) to 10.0.7.194
+2020-08-07 07:02:28,226108 (Thread-203): handling run_sql request
+2020-08-07 07:02:28,226631 (Thread-203): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa4e29e8>]}
+2020-08-07 07:02:28,266225 (Thread-203): sending response (<Response 136 bytes [200 OK]>) to 10.0.37.130
+2020-08-07 07:02:28,278387 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-07 07:02:28,278885 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-07 07:02:28,686553 (Thread-204): handling poll request
+2020-08-07 07:02:28,687112 (Thread-204): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa4e29e8>]}
+2020-08-07 07:02:28,721931 (Thread-204): sending response (<Response 1235 bytes [200 OK]>) to 10.0.14.214
+2020-08-07 07:02:29,816717 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-07 07:02:29,817648 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-07 07:02:29,817727 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-07 07:02:30,139249 (Thread-205): handling poll request
+2020-08-07 07:02:30,139733 (Thread-205): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa75b3c8>]}
+2020-08-07 07:02:30,163902 (Thread-205): sending response (<Response 1449 bytes [200 OK]>) to 10.0.46.211
+2020-08-07 07:02:31,235464 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-07 07:02:31,251728 (QueueFeederThread): finished collecting timing info
+2020-08-07 07:02:31,252207 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-07 07:02:31,252283 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select * from analytics.runs
+limit 100
+2020-08-07 07:02:31,532463 (Thread-206): handling poll request
+2020-08-07 07:02:31,533007 (Thread-206): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7f07b8>]}
+2020-08-07 07:02:31,562948 (Thread-206): sending response (<Response 1852 bytes [200 OK]>) to 10.0.30.62
+2020-08-07 07:02:31,942605 (QueueFeederThread): SQL status: SELECT 100 in 0.69 seconds
+2020-08-07 07:02:31,966181 (QueueFeederThread): finished collecting timing info
+2020-08-07 07:02:31,966705 (QueueFeederThread): Got an exception: tuple.index(x): x not in tuple
+2020-08-07 07:02:31,966981 (QueueFeederThread): Got exception RPCException(-32000, Server Error, {'type': 'Exception', 'message': 'tuple.index(x): x not in tuple', 'tags': None}, None)
+2020-08-07 07:02:32,999572 (Thread-207): handling poll request
+2020-08-07 07:02:33,057 (Thread-207): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7e3b38>]}
+2020-08-07 07:02:33,29794 (Thread-207): sending response (<Response 4912 bytes [200 OK]>) to 10.0.22.37
+2020-08-07 07:19:29,391461 (Thread-208): handling status request
+2020-08-07 07:19:29,393733 (Thread-208): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa7a3d68>]}
+2020-08-07 07:19:29,420135 (Thread-208): sending response (<Response 3295 bytes [200 OK]>) to 10.0.14.214
+2020-08-07 07:19:29,794854 (Thread-209): handling run_sql request
+2020-08-07 07:19:29,795373 (Thread-209): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa748320>]}
+2020-08-07 07:19:29,824216 (Thread-209): sending response (<Response 136 bytes [200 OK]>) to 10.0.31.210
+2020-08-07 07:19:29,835296 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-07 07:19:29,835727 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-07 07:19:30,201995 (Thread-210): handling poll request
+2020-08-07 07:19:30,202535 (Thread-210): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa748320>]}
+2020-08-07 07:19:30,229620 (Thread-210): sending response (<Response 1235 bytes [200 OK]>) to 10.0.14.214
+2020-08-07 07:19:31,410779 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-07 07:19:31,411877 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-07 07:19:31,411955 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-07 07:19:31,609193 (Thread-211): handling poll request
+2020-08-07 07:19:31,609680 (Thread-211): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fb288400>]}
+2020-08-07 07:19:31,652136 (Thread-211): sending response (<Response 1449 bytes [200 OK]>) to 10.0.22.37
+2020-08-07 07:19:32,944560 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-07 07:19:32,956589 (QueueFeederThread): finished collecting timing info
+2020-08-07 07:19:32,956921 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-07 07:19:32,956966 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with runs as (
+        select * from tap_postgres.garmin_activity
+)
+
+select * from runs
+limit 100
+2020-08-07 07:19:33,32376 (Thread-212): handling poll request
+2020-08-07 07:19:33,32826 (Thread-212): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fb288400>]}
+2020-08-07 07:19:33,55530 (Thread-212): sending response (<Response 1915 bytes [200 OK]>) to 10.0.31.124
+2020-08-07 07:19:33,715261 (QueueFeederThread): SQL status: SELECT 100 in 0.76 seconds
+2020-08-07 07:19:33,740371 (QueueFeederThread): finished collecting timing info
+2020-08-07 07:19:33,740890 (QueueFeederThread): Got an exception: tuple.index(x): x not in tuple
+2020-08-07 07:19:33,741200 (QueueFeederThread): Got exception RPCException(-32000, Server Error, {'type': 'Exception', 'message': 'tuple.index(x): x not in tuple', 'tags': None}, None)
+2020-08-07 07:19:34,457250 (Thread-213): handling poll request
+2020-08-07 07:19:34,457770 (Thread-213): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '645e5220-62b4-4344-8c8d-6acbc4b8108c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f25fa748400>]}
+2020-08-07 07:19:34,480730 (Thread-213): sending response (<Response 4975 bytes [200 OK]>) to 10.0.36.215
+2020-08-12 11:03:21,398844 (MainThread): Running with dbt=0.15.0
+2020-08-12 11:03:21,475175 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.rpc.server.RPCServerTask'>, debug=False, exclude=None, host='0.0.0.0', log_cache_events=False, log_format='default', models=None, partial_parse=True, port=8580, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='rpc', write_json=True)
+2020-08-12 11:03:21,493563 (MainThread): Tracking: tracking
+2020-08-12 11:03:21,494619 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e9fe055f8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8faa15c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8fa10630>]}
+2020-08-12 11:03:21,502044 (Thread-1): Parsing macros/core.sql
+2020-08-12 11:03:21,505636 (Thread-1): Parsing macros/materializations/helpers.sql
+2020-08-12 11:03:21,511427 (Thread-1): Parsing macros/materializations/common/merge.sql
+2020-08-12 11:03:21,517817 (Thread-1): Parsing macros/materializations/table/table.sql
+2020-08-12 11:03:21,523572 (Thread-1): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-08-12 11:03:21,527935 (Thread-1): Parsing macros/materializations/view/view.sql
+2020-08-12 11:03:21,532996 (Thread-1): Parsing macros/materializations/snapshot/snapshot.sql
+2020-08-12 11:03:21,548925 (Thread-1): Parsing macros/materializations/snapshot/strategies.sql
+2020-08-12 11:03:21,558161 (Thread-1): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-08-12 11:03:21,559943 (Thread-1): Parsing macros/materializations/seed/seed.sql
+2020-08-12 11:03:21,574160 (Thread-1): Parsing macros/materializations/incremental/incremental.sql
+2020-08-12 11:03:21,581556 (Thread-1): Parsing macros/materializations/incremental/helpers.sql
+2020-08-12 11:03:21,583262 (Thread-1): Parsing macros/etc/query.sql
+2020-08-12 11:03:21,584654 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=13
+2020-08-12 11:03:21,585381 (MainThread): Supported methods: ['cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'kill', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'status', 'test']
+2020-08-12 11:03:21,585596 (Thread-1): Parsing macros/etc/get_custom_schema.sql
+2020-08-12 11:03:21,586034 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2020-08-12 11:03:21,588531 (Thread-1): Parsing macros/etc/get_custom_alias.sql
+2020-08-12 11:03:21,589475 (Thread-1): Parsing macros/etc/datetime.sql
+2020-08-12 11:03:21,595655 (Thread-1): Parsing macros/etc/get_relation_comment.sql
+2020-08-12 11:03:21,597284 (Thread-1): Parsing macros/etc/is_incremental.sql
+2020-08-12 11:03:21,598664 (Thread-1): Parsing macros/adapters/common.sql
+2020-08-12 11:03:21,621596 (Thread-1): Parsing macros/schema_tests/relationships.sql
+2020-08-12 11:03:21,622648 (Thread-1): Parsing macros/schema_tests/unique.sql
+2020-08-12 11:03:21,623573 (Thread-1): Parsing macros/schema_tests/accepted_values.sql
+2020-08-12 11:03:21,625076 (Thread-1): Parsing macros/schema_tests/not_null.sql
+2020-08-12 11:03:21,626181 (Thread-1): Parsing macros/adapters.sql
+2020-08-12 11:03:21,633018 (Thread-1): Parsing macros/catalog.sql
+2020-08-12 11:03:21,634482 (Thread-1): Parsing macros/relations.sql
+2020-08-12 11:03:21,635742 (Thread-1): Parsing macros/materializations/snapshot_merge.sql
+2020-08-12 11:03:21,657361 (Thread-2): handling status request
+2020-08-12 11:03:21,657881 (Thread-2): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8fa10e10>]}
+2020-08-12 11:03:21,693163 (Thread-1): Acquiring new postgres connection "model.my_new_package.my_first_dbt_model".
+2020-08-12 11:03:21,693370 (Thread-1): Opening a new connection, currently in state init
+2020-08-12 11:03:21,695786 (Thread-2): sending response (<Response 183 bytes [200 OK]>) to 10.0.6.195
+2020-08-12 11:03:23,149976 (Thread-3): handling status request
+2020-08-12 11:03:23,150583 (Thread-3): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8fa19b70>]}
+2020-08-12 11:03:23,158631 (Thread-1): Acquiring new postgres connection "model.my_new_package.trackers".
+2020-08-12 11:03:23,158753 (Thread-1): Re-using an available connection from the pool (formerly model.my_new_package.my_first_dbt_model).
+2020-08-12 11:03:23,172439 (Thread-1): Acquiring new postgres connection "model.my_new_package.run".
+2020-08-12 11:03:23,172629 (Thread-1): Re-using an available connection from the pool (formerly model.my_new_package.trackers).
+2020-08-12 11:03:23,185325 (Thread-3): sending response (<Response 183 bytes [200 OK]>) to 10.0.11.144
+2020-08-12 11:03:23,187188 (Thread-1): Acquiring new postgres connection "model.my_new_package.responses".
+2020-08-12 11:03:23,187820 (Thread-1): Re-using an available connection from the pool (formerly model.my_new_package.run).
+2020-08-12 11:03:23,200266 (Thread-1): Acquiring new postgres connection "model.my_new_package.survey_details".
+2020-08-12 11:03:23,200380 (Thread-1): Re-using an available connection from the pool (formerly model.my_new_package.responses).
+2020-08-12 11:03:24,576273 (Thread-4): handling status request
+2020-08-12 11:03:24,576856 (Thread-4): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f1b2fd0>]}
+2020-08-12 11:03:24,604150 (Thread-4): sending response (<Response 10321 bytes [200 OK]>) to 10.0.37.49
+2020-08-12 11:03:30,452479 (Thread-5): handling status request
+2020-08-12 11:03:30,454790 (Thread-5): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e7272e8>]}
+2020-08-12 11:03:30,485148 (Thread-5): sending response (<Response 10321 bytes [200 OK]>) to 10.0.8.48
+2020-08-12 11:03:30,884459 (Thread-6): handling run_sql request
+2020-08-12 11:03:30,884972 (Thread-6): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f19b080>]}
+2020-08-12 11:03:30,908619 (Thread-6): Connection 'model.my_new_package.survey_details' was left open.
+2020-08-12 11:03:30,908763 (Thread-6): On model.my_new_package.survey_details: Close
+2020-08-12 11:03:30,915826 (Thread-6): sending response (<Response 136 bytes [200 OK]>) to 10.0.46.191
+2020-08-12 11:03:30,926284 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:03:30,926787 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:03:31,331256 (Thread-7): handling poll request
+2020-08-12 11:03:31,331839 (Thread-7): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e73c208>]}
+2020-08-12 11:03:31,360050 (Thread-7): sending response (<Response 1235 bytes [200 OK]>) to 10.0.18.252
+2020-08-12 11:03:32,407550 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-12 11:03:32,408471 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:03:32,408553 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:03:32,756617 (Thread-8): handling poll request
+2020-08-12 11:03:32,757172 (Thread-8): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e731400>]}
+2020-08-12 11:03:32,783963 (Thread-8): sending response (<Response 1448 bytes [200 OK]>) to 10.0.5.233
+2020-08-12 11:03:33,864292 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-12 11:03:33,878124 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:03:33,878469 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-12 11:03:33,878515 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select
+    note,
+    substring(note, '#\w*') as tracker_type,
+    substring(note, '#\w*?\((\d+[.]?\d+)\)') as tracker_value,
+    TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on
+from tap_nomie.books
+limit 100
+2020-08-12 11:03:34,181389 (Thread-9): handling poll request
+2020-08-12 11:03:34,182022 (Thread-9): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6c7710>]}
+2020-08-12 11:03:34,207249 (Thread-9): sending response (<Response 2049 bytes [200 OK]>) to 10.0.39.61
+2020-08-12 11:03:34,362270 (QueueFeederThread): SQL status: SELECT 100 in 0.48 seconds
+2020-08-12 11:03:34,372442 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:03:35,626982 (Thread-10): handling poll request
+2020-08-12 11:03:35,627465 (Thread-10): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6c7ac8>]}
+2020-08-12 11:03:35,657125 (Thread-10): sending response (<Response 11670 bytes [200 OK]>) to 10.0.11.144
+2020-08-12 11:04:11,918340 (Thread-11): handling status request
+2020-08-12 11:04:11,920578 (Thread-11): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6c7358>]}
+2020-08-12 11:04:11,946226 (Thread-11): sending response (<Response 10321 bytes [200 OK]>) to 10.0.32.21
+2020-08-12 11:04:12,322669 (Thread-12): handling run_sql request
+2020-08-12 11:04:12,323181 (Thread-12): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6c7710>]}
+2020-08-12 11:04:12,411097 (Thread-12): sending response (<Response 136 bytes [200 OK]>) to 10.0.36.199
+2020-08-12 11:04:12,421343 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:04:12,421794 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:04:12,811817 (Thread-13): handling poll request
+2020-08-12 11:04:12,812513 (Thread-13): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6e67f0>]}
+2020-08-12 11:04:12,840661 (Thread-13): sending response (<Response 1235 bytes [200 OK]>) to 10.0.11.144
+2020-08-12 11:04:13,899899 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-12 11:04:13,900756 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:04:13,900845 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:04:14,212716 (Thread-14): handling poll request
+2020-08-12 11:04:14,213444 (Thread-14): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6e6978>]}
+2020-08-12 11:04:14,240687 (Thread-14): sending response (<Response 1448 bytes [200 OK]>) to 10.0.23.87
+2020-08-12 11:04:15,333916 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-12 11:04:15,345661 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:04:15,345998 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-12 11:04:15,346048 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select
+    note,
+    substring(note, '#\w*') as tracker_type,
+    substring(note, '#\w*?\((\d+[.]?\d+)\)') as tracker_value,
+    TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on
+from tap_nomie.books
+2020-08-12 11:04:15,655354 (Thread-15): handling poll request
+2020-08-12 11:04:15,655821 (Thread-15): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6e7668>]}
+2020-08-12 11:04:15,683085 (Thread-15): sending response (<Response 2038 bytes [200 OK]>) to 10.0.32.21
+2020-08-12 11:04:16,56189 (QueueFeederThread): SQL status: SELECT 468 in 0.71 seconds
+2020-08-12 11:04:16,72926 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:04:17,76124 (Thread-16): handling poll request
+2020-08-12 11:04:17,76862 (Thread-16): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6cfcf8>]}
+2020-08-12 11:04:17,111916 (Thread-16): sending response (<Response 44398 bytes [200 OK]>) to 10.0.37.49
+2020-08-12 11:16:00,740538 (Thread-17): handling status request
+2020-08-12 11:16:00,742335 (Thread-17): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6e7550>]}
+2020-08-12 11:16:00,768906 (Thread-17): sending response (<Response 10321 bytes [200 OK]>) to 10.0.39.61
+2020-08-12 11:16:01,176384 (Thread-18): handling run_sql request
+2020-08-12 11:16:01,176888 (Thread-18): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e69aba8>]}
+2020-08-12 11:16:01,207373 (Thread-18): sending response (<Response 136 bytes [200 OK]>) to 10.0.46.191
+2020-08-12 11:16:01,217546 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:01,218052 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:16:01,590633 (Thread-19): handling poll request
+2020-08-12 11:16:01,591191 (Thread-19): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e69cbe0>]}
+2020-08-12 11:16:01,615466 (Thread-19): sending response (<Response 1237 bytes [200 OK]>) to 10.0.39.61
+2020-08-12 11:16:02,714689 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-12 11:16:02,715769 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:02,715845 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:16:03,48063 (Thread-20): handling poll request
+2020-08-12 11:16:03,48563 (Thread-20): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6c7748>]}
+2020-08-12 11:16:03,74400 (Thread-20): sending response (<Response 1451 bytes [200 OK]>) to 10.0.11.144
+2020-08-12 11:16:04,142905 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-12 11:16:04,158305 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:16:04,158730 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:04,158799 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select
+    note,
+    count(*)
+    substring(note, '#\w*') as tracker_type,
+    substring(note, '#\w*?\((\d+[.]?\d+)\)') as tracker_value,
+    TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on
+from tap_nomie.books
+group by tracker_type
+2020-08-12 11:16:04,482227 (Thread-21): handling poll request
+2020-08-12 11:16:04,482716 (Thread-21): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f1a27b8>]}
+2020-08-12 11:16:04,504579 (Thread-21): sending response (<Response 2079 bytes [200 OK]>) to 10.0.30.93
+2020-08-12 11:16:04,628163 (QueueFeederThread): Postgres error: syntax error at or near "substring"
+LINE 5:     substring(note, '#\w*') as tracker_type,
+            ^
+
+2020-08-12 11:16:04,628307 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:16:04,628822 (QueueFeederThread): Got an exception: Database Error
+  syntax error at or near "substring"
+  LINE 5:     substring(note, '#\w*') as tracker_type,
+              ^
+2020-08-12 11:16:04,629159 (QueueFeederThread): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  syntax error at or near "substring"\n  LINE 5:     substring(note, \'#\\w*\') as tracker_type,\n              ^', 'raw_sql': "select\n    note,\n    count(*)\n    substring(note, '#\\w*') as tracker_type,\n    substring(note, '#\\w*?\\((\\d+[.]?\\d+)\\)') as tracker_value,\n    TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on\nfrom tap_nomie.books\ngroup by tracker_type", 'compiled_sql': "select\n    note,\n    count(*)\n    substring(note, '#\\w*') as tracker_type,\n    substring(note, '#\\w*?\\((\\d+[.]?\\d+)\\)') as tracker_value,\n    TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on\nfrom tap_nomie.books\ngroup by tracker_type", 'tags': None}, None)
+2020-08-12 11:16:05,953053 (Thread-22): handling poll request
+2020-08-12 11:16:05,953578 (Thread-22): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e722400>]}
+2020-08-12 11:16:05,976981 (Thread-22): sending response (<Response 6790 bytes [200 OK]>) to 10.0.39.61
+2020-08-12 11:16:12,511432 (Thread-23): handling status request
+2020-08-12 11:16:12,511926 (Thread-23): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6cf940>]}
+2020-08-12 11:16:12,544964 (Thread-23): sending response (<Response 10321 bytes [200 OK]>) to 10.0.30.93
+2020-08-12 11:16:12,939142 (Thread-24): handling run_sql request
+2020-08-12 11:16:12,939641 (Thread-24): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e71d128>]}
+2020-08-12 11:16:12,974386 (Thread-24): sending response (<Response 136 bytes [200 OK]>) to 10.0.18.252
+2020-08-12 11:16:12,985276 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:12,985759 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:16:13,364797 (Thread-25): handling poll request
+2020-08-12 11:16:13,365398 (Thread-25): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e69cb70>]}
+2020-08-12 11:16:13,396111 (Thread-25): sending response (<Response 1237 bytes [200 OK]>) to 10.0.36.199
+2020-08-12 11:16:14,414423 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-12 11:16:14,415668 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:14,415752 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:16:14,778190 (Thread-26): handling poll request
+2020-08-12 11:16:14,778687 (Thread-26): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e7159e8>]}
+2020-08-12 11:16:14,805315 (Thread-26): sending response (<Response 1451 bytes [200 OK]>) to 10.0.39.61
+2020-08-12 11:16:15,879000 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-12 11:16:15,892095 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:16:15,892426 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:15,892475 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select
+    note,
+    count(*),
+    substring(note, '#\w*') as tracker_type,
+    substring(note, '#\w*?\((\d+[.]?\d+)\)') as tracker_value,
+    TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on
+from tap_nomie.books
+group by tracker_type
+2020-08-12 11:16:16,186129 (Thread-27): handling poll request
+2020-08-12 11:16:16,186627 (Thread-27): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e709518>]}
+2020-08-12 11:16:16,212964 (Thread-27): sending response (<Response 2080 bytes [200 OK]>) to 10.0.8.48
+2020-08-12 11:16:16,376709 (QueueFeederThread): Postgres error: column "books.note" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 3:     note,
+            ^
+
+2020-08-12 11:16:16,376903 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:16:16,377585 (QueueFeederThread): Got an exception: Database Error
+  column "books.note" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 3:     note,
+              ^
+2020-08-12 11:16:16,377809 (QueueFeederThread): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  column "books.note" must appear in the GROUP BY clause or be used in an aggregate function\n  LINE 3:     note,\n              ^', 'raw_sql': "select\n    note,\n    count(*),\n    substring(note, '#\\w*') as tracker_type,\n    substring(note, '#\\w*?\\((\\d+[.]?\\d+)\\)') as tracker_value,\n    TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on\nfrom tap_nomie.books\ngroup by tracker_type", 'compiled_sql': "select\n    note,\n    count(*),\n    substring(note, '#\\w*') as tracker_type,\n    substring(note, '#\\w*?\\((\\d+[.]?\\d+)\\)') as tracker_value,\n    TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on\nfrom tap_nomie.books\ngroup by tracker_type", 'tags': None}, None)
+2020-08-12 11:16:17,603332 (Thread-28): handling poll request
+2020-08-12 11:16:17,603823 (Thread-28): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e71b2b0>]}
+2020-08-12 11:16:17,624617 (Thread-28): sending response (<Response 6865 bytes [200 OK]>) to 10.0.36.199
+2020-08-12 11:16:41,345010 (Thread-29): handling status request
+2020-08-12 11:16:41,346965 (Thread-29): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f19bda0>]}
+2020-08-12 11:16:41,383805 (Thread-29): sending response (<Response 10321 bytes [200 OK]>) to 10.0.6.195
+2020-08-12 11:16:41,809685 (Thread-30): handling run_sql request
+2020-08-12 11:16:41,810172 (Thread-30): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e71b320>]}
+2020-08-12 11:16:41,838957 (Thread-30): sending response (<Response 136 bytes [200 OK]>) to 10.0.7.55
+2020-08-12 11:16:41,848957 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:41,849399 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:16:42,237370 (Thread-31): handling poll request
+2020-08-12 11:16:42,237926 (Thread-31): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f182208>]}
+2020-08-12 11:16:42,261978 (Thread-31): sending response (<Response 1232 bytes [200 OK]>) to 10.0.37.49
+2020-08-12 11:16:43,355421 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-12 11:16:43,356640 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:43,356740 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:16:43,664179 (Thread-32): handling poll request
+2020-08-12 11:16:43,664684 (Thread-32): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f1a16d8>]}
+2020-08-12 11:16:43,683510 (Thread-32): sending response (<Response 1449 bytes [200 OK]>) to 10.0.37.49
+2020-08-12 11:16:44,808269 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-12 11:16:44,820046 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:16:44,820355 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:44,820399 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select
+    -- note,
+    count(*),
+    substring(note, '#\w*') as tracker_type,
+    -- substring(note, '#\w*?\((\d+[.]?\d+)\)') as tracker_value,
+    -- TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on
+from tap_nomie.books
+group by tracker_type
+2020-08-12 11:16:45,139035 (Thread-33): handling poll request
+2020-08-12 11:16:45,139510 (Thread-33): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e713208>]}
+2020-08-12 11:16:45,160769 (Thread-33): sending response (<Response 2089 bytes [200 OK]>) to 10.0.39.61
+2020-08-12 11:16:45,289332 (QueueFeederThread): Postgres error: syntax error at or near "from"
+LINE 8: from tap_nomie.books
+        ^
+
+2020-08-12 11:16:45,289475 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:16:45,289973 (QueueFeederThread): Got an exception: Database Error
+  syntax error at or near "from"
+  LINE 8: from tap_nomie.books
+          ^
+2020-08-12 11:16:45,290182 (QueueFeederThread): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  syntax error at or near "from"\n  LINE 8: from tap_nomie.books\n          ^', 'raw_sql': "select\n    -- note,\n    count(*),\n    substring(note, '#\\w*') as tracker_type,\n    -- substring(note, '#\\w*?\\((\\d+[.]?\\d+)\\)') as tracker_value,\n    -- TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on\nfrom tap_nomie.books\ngroup by tracker_type", 'compiled_sql': "select\n    -- note,\n    count(*),\n    substring(note, '#\\w*') as tracker_type,\n    -- substring(note, '#\\w*?\\((\\d+[.]?\\d+)\\)') as tracker_value,\n    -- TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on\nfrom tap_nomie.books\ngroup by tracker_type", 'tags': None}, None)
+2020-08-12 11:16:46,577447 (Thread-34): handling poll request
+2020-08-12 11:16:46,577956 (Thread-34): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f1a9a58>]}
+2020-08-12 11:16:46,599424 (Thread-34): sending response (<Response 6692 bytes [200 OK]>) to 10.0.37.49
+2020-08-12 11:16:53,225172 (Thread-35): handling status request
+2020-08-12 11:16:53,225707 (Thread-35): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e709be0>]}
+2020-08-12 11:16:53,249732 (Thread-35): sending response (<Response 10321 bytes [200 OK]>) to 10.0.30.93
+2020-08-12 11:16:53,648325 (Thread-36): handling run_sql request
+2020-08-12 11:16:53,648827 (Thread-36): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f182eb8>]}
+2020-08-12 11:16:53,676272 (Thread-36): sending response (<Response 136 bytes [200 OK]>) to 10.0.26.231
+2020-08-12 11:16:53,688159 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:53,688602 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:16:54,43627 (Thread-37): handling poll request
+2020-08-12 11:16:54,44226 (Thread-37): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6a3ba8>]}
+2020-08-12 11:16:54,67194 (Thread-37): sending response (<Response 1237 bytes [200 OK]>) to 10.0.30.93
+2020-08-12 11:16:55,99571 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-12 11:16:55,100478 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:55,100557 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:16:55,457931 (Thread-38): handling poll request
+2020-08-12 11:16:55,458600 (Thread-38): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8f18a710>]}
+2020-08-12 11:16:55,482224 (Thread-38): sending response (<Response 1451 bytes [200 OK]>) to 10.0.7.55
+2020-08-12 11:16:56,538090 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-12 11:16:56,549957 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:16:56,550292 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-12 11:16:56,550342 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select
+    -- note,
+    count(*),
+    substring(note, '#\w*') as tracker_type
+    -- substring(note, '#\w*?\((\d+[.]?\d+)\)') as tracker_value,
+    -- TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on
+from tap_nomie.books
+group by tracker_type
+2020-08-12 11:16:56,908325 (Thread-39): handling poll request
+2020-08-12 11:16:56,908796 (Thread-39): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6b5be0>]}
+2020-08-12 11:16:56,932542 (Thread-39): sending response (<Response 2088 bytes [200 OK]>) to 10.0.39.61
+2020-08-12 11:16:57,26109 (QueueFeederThread): SQL status: SELECT 21 in 0.48 seconds
+2020-08-12 11:16:57,34360 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:16:58,319876 (Thread-40): handling poll request
+2020-08-12 11:16:58,320347 (Thread-40): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e713828>]}
+2020-08-12 11:16:58,345753 (Thread-40): sending response (<Response 4267 bytes [200 OK]>) to 10.0.8.48
+2020-08-12 11:17:14,515563 (Thread-41): handling status request
+2020-08-12 11:17:14,517417 (Thread-41): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6b8668>]}
+2020-08-12 11:17:14,542967 (Thread-41): sending response (<Response 10321 bytes [200 OK]>) to 10.0.30.93
+2020-08-12 11:17:14,931206 (Thread-42): handling run_sql request
+2020-08-12 11:17:14,931680 (Thread-42): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6b5048>]}
+2020-08-12 11:17:14,957542 (Thread-42): sending response (<Response 136 bytes [200 OK]>) to 10.0.23.87
+2020-08-12 11:17:14,967534 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:17:14,967963 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:17:15,330688 (Thread-43): handling poll request
+2020-08-12 11:17:15,331212 (Thread-43): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6bdc88>]}
+2020-08-12 11:17:15,354823 (Thread-43): sending response (<Response 1235 bytes [200 OK]>) to 10.0.7.55
+2020-08-12 11:17:16,426689 (QueueFeederThread): Found 5 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-12 11:17:16,427641 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-12 11:17:16,427719 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-12 11:17:16,748948 (Thread-44): handling poll request
+2020-08-12 11:17:16,749467 (Thread-44): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e6465f8>]}
+2020-08-12 11:17:16,776245 (Thread-44): sending response (<Response 1449 bytes [200 OK]>) to 10.0.46.191
+2020-08-12 11:17:17,853250 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-12 11:17:17,864532 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:17:17,864841 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-12 11:17:17,864885 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+select
+    -- note,
+    count(*) mycount,
+    substring(note, '#\w*') as tracker_type
+    -- substring(note, '#\w*?\((\d+[.]?\d+)\)') as tracker_value,
+    -- TIMESTAMP 'epoch' + start * INTERVAL '1 millisecond' as started_on
+from tap_nomie.books
+group by tracker_type
+order by mycount desc
+2020-08-12 11:17:18,336584 (QueueFeederThread): SQL status: SELECT 21 in 0.47 seconds
+2020-08-12 11:17:18,343330 (QueueFeederThread): finished collecting timing info
+2020-08-12 11:17:18,496228 (Thread-45): handling poll request
+2020-08-12 11:17:18,496715 (Thread-45): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd600c5b0-d151-45e3-afe1-a6e450514c9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e8e649828>]}
+2020-08-12 11:17:18,521216 (Thread-45): sending response (<Response 6151 bytes [200 OK]>) to 10.0.32.21
+2020-08-14 05:39:57,634466 (MainThread): Running with dbt=0.15.0
+2020-08-14 05:39:57,701009 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.rpc.server.RPCServerTask'>, debug=False, exclude=None, host='0.0.0.0', log_cache_events=False, log_format='default', models=None, partial_parse=True, port=8580, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='rpc', write_json=True)
+2020-08-14 05:39:57,715379 (MainThread): Tracking: tracking
+2020-08-14 05:39:57,725944 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0687fc9c18>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0687eb0fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0687eb0a58>]}
+2020-08-14 05:39:57,731228 (Thread-1): Parsing macros/core.sql
+2020-08-14 05:39:57,734285 (Thread-1): Parsing macros/materializations/helpers.sql
+2020-08-14 05:39:57,739362 (Thread-1): Parsing macros/materializations/common/merge.sql
+2020-08-14 05:39:57,744641 (Thread-1): Parsing macros/materializations/table/table.sql
+2020-08-14 05:39:57,749120 (Thread-1): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-08-14 05:39:57,752816 (Thread-1): Parsing macros/materializations/view/view.sql
+2020-08-14 05:39:57,757328 (Thread-1): Parsing macros/materializations/snapshot/snapshot.sql
+2020-08-14 05:39:57,771584 (Thread-1): Parsing macros/materializations/snapshot/strategies.sql
+2020-08-14 05:39:57,779793 (Thread-1): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-08-14 05:39:57,781659 (Thread-1): Parsing macros/materializations/seed/seed.sql
+2020-08-14 05:39:57,794494 (Thread-1): Parsing macros/materializations/incremental/incremental.sql
+2020-08-14 05:39:57,799949 (Thread-1): Parsing macros/materializations/incremental/helpers.sql
+2020-08-14 05:39:57,801597 (Thread-1): Parsing macros/etc/query.sql
+2020-08-14 05:39:57,802564 (Thread-1): Parsing macros/etc/get_custom_schema.sql
+2020-08-14 05:39:57,804681 (Thread-1): Parsing macros/etc/get_custom_alias.sql
+2020-08-14 05:39:57,805604 (Thread-1): Parsing macros/etc/datetime.sql
+2020-08-14 05:39:57,810979 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=13
+2020-08-14 05:39:57,812331 (MainThread): Supported methods: ['cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'kill', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'status', 'test']
+2020-08-14 05:39:57,812506 (Thread-1): Parsing macros/etc/get_relation_comment.sql
+2020-08-14 05:39:57,812832 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2020-08-14 05:39:57,814923 (Thread-1): Parsing macros/etc/is_incremental.sql
+2020-08-14 05:39:57,816482 (Thread-1): Parsing macros/adapters/common.sql
+2020-08-14 05:39:57,835304 (Thread-1): Parsing macros/schema_tests/relationships.sql
+2020-08-14 05:39:57,836326 (Thread-1): Parsing macros/schema_tests/unique.sql
+2020-08-14 05:39:57,837271 (Thread-1): Parsing macros/schema_tests/accepted_values.sql
+2020-08-14 05:39:57,838792 (Thread-1): Parsing macros/schema_tests/not_null.sql
+2020-08-14 05:39:57,839838 (Thread-1): Parsing macros/adapters.sql
+2020-08-14 05:39:57,846563 (Thread-1): Parsing macros/catalog.sql
+2020-08-14 05:39:57,847968 (Thread-1): Parsing macros/relations.sql
+2020-08-14 05:39:57,849219 (Thread-1): Parsing macros/materializations/snapshot_merge.sql
+2020-08-14 05:39:57,896613 (Thread-1): Acquiring new postgres connection "model.my_new_package.my_first_dbt_model".
+2020-08-14 05:39:57,896767 (Thread-1): Opening a new connection, currently in state init
+2020-08-14 05:39:58,880961 (Thread-2): handling status request
+2020-08-14 05:39:58,881510 (Thread-2): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f068766ae10>]}
+2020-08-14 05:39:58,905715 (Thread-2): sending response (<Response 183 bytes [200 OK]>) to 10.0.17.83
+2020-08-14 05:39:59,355700 (Thread-1): Acquiring new postgres connection "model.my_new_package.trackers".
+2020-08-14 05:39:59,355853 (Thread-1): Re-using an available connection from the pool (formerly model.my_new_package.my_first_dbt_model).
+2020-08-14 05:39:59,367891 (Thread-1): Acquiring new postgres connection "model.my_new_package.run".
+2020-08-14 05:39:59,368024 (Thread-1): Re-using an available connection from the pool (formerly model.my_new_package.trackers).
+2020-08-14 05:39:59,379670 (Thread-1): Acquiring new postgres connection "model.my_new_package.responses".
+2020-08-14 05:39:59,379795 (Thread-1): Re-using an available connection from the pool (formerly model.my_new_package.run).
+2020-08-14 05:39:59,390519 (Thread-1): Acquiring new postgres connection "model.my_new_package.survey_details".
+2020-08-14 05:39:59,390625 (Thread-1): Re-using an available connection from the pool (formerly model.my_new_package.responses).
+2020-08-14 05:40:00,377413 (Thread-3): handling status request
+2020-08-14 05:40:00,377921 (Thread-3): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686c26da0>]}
+2020-08-14 05:40:00,403418 (Thread-3): sending response (<Response 10258 bytes [200 OK]>) to 10.0.17.83
+2020-08-14 05:40:28,694759 (Thread-4): Got an acceptable cached parse result
+2020-08-14 05:40:29,148429 (Thread-5): handling status request
+2020-08-14 05:40:29,148982 (Thread-5): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bdccc0>]}
+2020-08-14 05:40:29,177830 (Thread-5): sending response (<Response 444 bytes [200 OK]>) to 10.0.15.34
+2020-08-14 05:40:41,210904 (Thread-6): Got an acceptable cached parse result
+2020-08-14 05:40:41,255452 (Thread-6): Acquiring new postgres connection "model.my_new_package.sleeps".
+2020-08-14 05:40:41,255599 (Thread-6): Re-using an available connection from the pool (formerly model.my_new_package.survey_details).
+2020-08-14 05:40:41,585821 (Thread-7): handling status request
+2020-08-14 05:40:41,586322 (Thread-7): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bd32b0>]}
+2020-08-14 05:40:41,610192 (Thread-7): sending response (<Response 1064 bytes [200 OK]>) to 10.0.29.198
+2020-08-14 05:41:02,575176 (Thread-8): handling status request
+2020-08-14 05:41:02,577808 (Thread-8): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0687662240>]}
+2020-08-14 05:41:02,603825 (Thread-8): sending response (<Response 1064 bytes [200 OK]>) to 10.0.8.195
+2020-08-14 05:41:02,979404 (Thread-9): handling run_sql request
+2020-08-14 05:41:02,979884 (Thread-9): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06876628d0>]}
+2020-08-14 05:41:03,4605 (Thread-9): Connection 'model.my_new_package.sleeps' was left open.
+2020-08-14 05:41:03,4795 (Thread-9): On model.my_new_package.sleeps: Close
+2020-08-14 05:41:03,11633 (Thread-9): sending response (<Response 136 bytes [200 OK]>) to 10.0.6.27
+2020-08-14 05:41:03,22249 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:41:03,22748 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:41:03,413428 (Thread-10): handling poll request
+2020-08-14 05:41:03,414019 (Thread-10): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f06876628d0>]}
+2020-08-14 05:41:03,443389 (Thread-10): sending response (<Response 1229 bytes [200 OK]>) to 10.0.2.223
+2020-08-14 05:41:04,540613 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 05:41:04,541907 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:41:04,542003 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:41:04,825203 (Thread-11): handling poll request
+2020-08-14 05:41:04,825675 (Thread-11): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0687ed7c18>]}
+2020-08-14 05:41:04,849323 (Thread-11): sending response (<Response 1445 bytes [200 OK]>) to 10.0.44.84
+2020-08-14 05:41:06,33700 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 05:41:06,47116 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:41:06,47434 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 05:41:06,47493 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select * from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 05:41:06,273787 (Thread-12): handling poll request
+2020-08-14 05:41:06,274327 (Thread-12): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686c2eac8>]}
+2020-08-14 05:41:06,297542 (Thread-12): sending response (<Response 1900 bytes [200 OK]>) to 10.0.36.160
+2020-08-14 05:41:06,540989 (QueueFeederThread): SQL status: SELECT 8 in 0.49 seconds
+2020-08-14 05:41:06,570795 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:41:06,571461 (QueueFeederThread): Got an exception: tuple.index(x): x not in tuple
+2020-08-14 05:41:06,571787 (QueueFeederThread): Got exception RPCException(-32000, Server Error, {'type': 'Exception', 'message': 'tuple.index(x): x not in tuple', 'tags': None}, None)
+2020-08-14 05:41:07,682075 (Thread-13): handling poll request
+2020-08-14 05:41:07,682608 (Thread-13): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686c179b0>]}
+2020-08-14 05:41:07,705756 (Thread-13): sending response (<Response 4952 bytes [200 OK]>) to 10.0.45.91
+2020-08-14 05:41:32,270467 (Thread-14): handling status request
+2020-08-14 05:41:32,272817 (Thread-14): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bc7908>]}
+2020-08-14 05:41:32,295309 (Thread-14): sending response (<Response 1064 bytes [200 OK]>) to 10.0.29.198
+2020-08-14 05:41:32,707645 (Thread-15): handling run_sql request
+2020-08-14 05:41:32,708183 (Thread-15): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bf8208>]}
+2020-08-14 05:41:32,734780 (Thread-15): sending response (<Response 136 bytes [200 OK]>) to 10.0.34.28
+2020-08-14 05:41:32,744803 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:41:32,745311 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:41:33,132459 (Thread-16): handling poll request
+2020-08-14 05:41:33,133007 (Thread-16): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bf8208>]}
+2020-08-14 05:41:33,157539 (Thread-16): sending response (<Response 1231 bytes [200 OK]>) to 10.0.2.223
+2020-08-14 05:41:34,201201 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 05:41:34,202329 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:41:34,202402 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:41:34,533886 (Thread-17): handling poll request
+2020-08-14 05:41:34,534381 (Thread-17): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bfbe10>]}
+2020-08-14 05:41:34,555518 (Thread-17): sending response (<Response 1446 bytes [200 OK]>) to 10.0.44.84
+2020-08-14 05:41:35,737748 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 05:41:35,749577 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:41:35,749910 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 05:41:35,749958 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select
+        bedtime_start,
+        bedtime_end
+    from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 05:41:35,950248 (Thread-18): handling poll request
+2020-08-14 05:41:35,950732 (Thread-18): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b88278>]}
+2020-08-14 05:41:35,974385 (Thread-18): sending response (<Response 1948 bytes [200 OK]>) to 10.0.6.139
+2020-08-14 05:41:36,243700 (QueueFeederThread): SQL status: SELECT 8 in 0.49 seconds
+2020-08-14 05:41:36,244728 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:41:37,368630 (Thread-19): handling poll request
+2020-08-14 05:41:37,369164 (Thread-19): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b88940>]}
+2020-08-14 05:41:37,395048 (Thread-19): sending response (<Response 3485 bytes [200 OK]>) to 10.0.34.28
+2020-08-14 05:44:58,994814 (Thread-20): handling status request
+2020-08-14 05:44:58,997349 (Thread-20): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b8b5f8>]}
+2020-08-14 05:44:59,21799 (Thread-20): sending response (<Response 1064 bytes [200 OK]>) to 10.0.34.28
+2020-08-14 05:44:59,422170 (Thread-21): handling run_sql request
+2020-08-14 05:44:59,422659 (Thread-21): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b92128>]}
+2020-08-14 05:44:59,450642 (Thread-21): sending response (<Response 136 bytes [200 OK]>) to 10.0.6.27
+2020-08-14 05:44:59,461089 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:44:59,461561 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:44:59,859908 (Thread-22): handling poll request
+2020-08-14 05:44:59,860449 (Thread-22): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b92128>]}
+2020-08-14 05:44:59,886824 (Thread-22): sending response (<Response 1229 bytes [200 OK]>) to 10.0.17.83
+2020-08-14 05:45:00,964841 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 05:45:00,966045 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:45:00,966122 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:45:01,284163 (Thread-23): handling poll request
+2020-08-14 05:45:01,284729 (Thread-23): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f068765c2b0>]}
+2020-08-14 05:45:01,308384 (Thread-23): sending response (<Response 1445 bytes [200 OK]>) to 10.0.45.91
+2020-08-14 05:45:02,459537 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 05:45:02,472318 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:45:02,472640 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 05:45:02,472688 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select
+        bedtime_start,
+        bedtime_end,
+        bedtime_end - bedtime_start
+    from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 05:45:02,701910 (Thread-24): handling poll request
+2020-08-14 05:45:02,702406 (Thread-24): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b8ffd0>]}
+2020-08-14 05:45:02,724791 (Thread-24): sending response (<Response 1986 bytes [200 OK]>) to 10.0.31.22
+2020-08-14 05:45:02,956381 (QueueFeederThread): SQL status: SELECT 8 in 0.48 seconds
+2020-08-14 05:45:02,957546 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:45:04,85503 (Thread-25): handling poll request
+2020-08-14 05:45:04,86001 (Thread-25): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b92a58>]}
+2020-08-14 05:45:04,112392 (Thread-25): sending response (<Response 3776 bytes [200 OK]>) to 10.0.29.198
+2020-08-14 05:58:45,223679 (Thread-26): handling status request
+2020-08-14 05:58:45,226555 (Thread-26): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b92550>]}
+2020-08-14 05:58:45,254482 (Thread-26): sending response (<Response 1064 bytes [200 OK]>) to 10.0.15.34
+2020-08-14 05:58:45,634128 (Thread-27): handling run_sql request
+2020-08-14 05:58:45,634633 (Thread-27): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686ba1eb8>]}
+2020-08-14 05:58:45,663772 (Thread-27): sending response (<Response 136 bytes [200 OK]>) to 10.0.31.22
+2020-08-14 05:58:45,673504 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:58:45,673952 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:58:46,18894 (Thread-28): handling poll request
+2020-08-14 05:58:46,19446 (Thread-28): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686ba1eb8>]}
+2020-08-14 05:58:46,45531 (Thread-28): sending response (<Response 1231 bytes [200 OK]>) to 10.0.29.151
+2020-08-14 05:58:47,188710 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 05:58:47,189643 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:58:47,189719 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:58:47,427014 (Thread-29): handling poll request
+2020-08-14 05:58:47,427519 (Thread-29): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b946d8>]}
+2020-08-14 05:58:47,451778 (Thread-29): sending response (<Response 1446 bytes [200 OK]>) to 10.0.20.65
+2020-08-14 05:58:48,592266 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 05:58:48,604276 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:58:48,604591 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 05:58:48,604639 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select
+        bedtime_start,
+        bedtime_end,
+        bedtime_end - bedtime_start as time_in_bed,
+        to_char(duration::interval, 'HH24:MI:SS') as time_asleep
+    from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 05:58:48,826698 (Thread-30): handling poll request
+2020-08-14 05:58:48,827399 (Thread-30): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686ba57f0>]}
+2020-08-14 05:58:48,851927 (Thread-30): sending response (<Response 2068 bytes [200 OK]>) to 10.0.29.151
+2020-08-14 05:58:49,71479 (QueueFeederThread): Postgres error: cannot cast type bigint to interval
+LINE 7:         to_char(duration::interval, 'HH24:MI:SS') as time_as...
+                                ^
+
+2020-08-14 05:58:49,71639 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:58:49,72153 (QueueFeederThread): Got an exception: Database Error
+  cannot cast type bigint to interval
+  LINE 7:         to_char(duration::interval, 'HH24:MI:SS') as time_as...
+                                  ^
+2020-08-14 05:58:49,72362 (QueueFeederThread): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  cannot cast type bigint to interval\n  LINE 7:         to_char(duration::interval, 'HH24:MI:SS') as time_as...\n                                  ^", 'raw_sql': "with sleeps as (\n    select\n        bedtime_start,\n        bedtime_end,\n        bedtime_end - bedtime_start as time_in_bed,\n        to_char(duration::interval, 'HH24:MI:SS') as time_asleep\n    from tap_oura.sleeps\n)\n\nselect * from sleeps\nlimit 100", 'compiled_sql': "with sleeps as (\n    select\n        bedtime_start,\n        bedtime_end,\n        bedtime_end - bedtime_start as time_in_bed,\n        to_char(duration::interval, 'HH24:MI:SS') as time_asleep\n    from tap_oura.sleeps\n)\n\nselect * from sleeps\nlimit 100", 'tags': None}, None)
+2020-08-14 05:58:50,201021 (Thread-31): handling poll request
+2020-08-14 05:58:50,201603 (Thread-31): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686ba65f8>]}
+2020-08-14 05:58:50,226831 (Thread-31): sending response (<Response 6870 bytes [200 OK]>) to 10.0.29.198
+2020-08-14 05:59:24,281268 (Thread-32): handling status request
+2020-08-14 05:59:24,283557 (Thread-32): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686ba5d30>]}
+2020-08-14 05:59:24,305672 (Thread-32): sending response (<Response 1064 bytes [200 OK]>) to 10.0.6.139
+2020-08-14 05:59:24,666665 (Thread-33): handling run_sql request
+2020-08-14 05:59:24,667162 (Thread-33): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b94e48>]}
+2020-08-14 05:59:24,696913 (Thread-33): sending response (<Response 136 bytes [200 OK]>) to 10.0.20.65
+2020-08-14 05:59:24,706793 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:59:24,707248 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:59:25,98658 (Thread-34): handling poll request
+2020-08-14 05:59:25,99267 (Thread-34): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b94e48>]}
+2020-08-14 05:59:25,124233 (Thread-34): sending response (<Response 1231 bytes [200 OK]>) to 10.0.45.91
+2020-08-14 05:59:26,235553 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 05:59:26,236646 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 05:59:26,236722 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 05:59:26,474171 (Thread-35): handling poll request
+2020-08-14 05:59:26,474676 (Thread-35): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686baf0f0>]}
+2020-08-14 05:59:26,496832 (Thread-35): sending response (<Response 1446 bytes [200 OK]>) to 10.0.29.198
+2020-08-14 05:59:27,720142 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 05:59:27,732138 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:59:27,732445 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 05:59:27,732493 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select
+        bedtime_start,
+        bedtime_end,
+        bedtime_end - bedtime_start as time_in_bed,
+        to_char(duration || ' second'::interval, 'HH24:MI:SS') as time_asleep
+    from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 05:59:27,847681 (Thread-36): handling poll request
+2020-08-14 05:59:27,848159 (Thread-36): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bb4898>]}
+2020-08-14 05:59:27,871983 (Thread-36): sending response (<Response 2081 bytes [200 OK]>) to 10.0.29.151
+2020-08-14 05:59:28,223511 (QueueFeederThread): Postgres error: invalid input syntax for type interval: " second"
+LINE 7:         to_char(duration || ' second'::interval, 'HH24:MI:SS...
+                                    ^
+
+2020-08-14 05:59:28,223672 (QueueFeederThread): finished collecting timing info
+2020-08-14 05:59:28,224195 (QueueFeederThread): Got an exception: Database Error
+  invalid input syntax for type interval: " second"
+  LINE 7:         to_char(duration || ' second'::interval, 'HH24:MI:SS...
+                                      ^
+2020-08-14 05:59:28,224400 (QueueFeederThread): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  invalid input syntax for type interval: " second"\n  LINE 7:         to_char(duration || \' second\'::interval, \'HH24:MI:SS...\n                                      ^', 'raw_sql': "with sleeps as (\n    select\n        bedtime_start,\n        bedtime_end,\n        bedtime_end - bedtime_start as time_in_bed,\n        to_char(duration || ' second'::interval, 'HH24:MI:SS') as time_asleep\n    from tap_oura.sleeps\n)\n\nselect * from sleeps\nlimit 100", 'compiled_sql': "with sleeps as (\n    select\n        bedtime_start,\n        bedtime_end,\n        bedtime_end - bedtime_start as time_in_bed,\n        to_char(duration || ' second'::interval, 'HH24:MI:SS') as time_asleep\n    from tap_oura.sleeps\n)\n\nselect * from sleeps\nlimit 100", 'tags': None}, None)
+2020-08-14 05:59:29,246084 (Thread-37): handling poll request
+2020-08-14 05:59:29,246589 (Thread-37): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bbdba8>]}
+2020-08-14 05:59:29,268834 (Thread-37): sending response (<Response 7019 bytes [200 OK]>) to 10.0.44.84
+2020-08-14 06:00:04,726503 (Thread-38): handling status request
+2020-08-14 06:00:04,728462 (Thread-38): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bb4940>]}
+2020-08-14 06:00:04,760387 (Thread-38): sending response (<Response 1064 bytes [200 OK]>) to 10.0.45.91
+2020-08-14 06:00:05,186518 (Thread-39): handling run_sql request
+2020-08-14 06:00:05,187019 (Thread-39): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bb4cc0>]}
+2020-08-14 06:00:05,218105 (Thread-39): sending response (<Response 136 bytes [200 OK]>) to 10.0.8.195
+2020-08-14 06:00:05,229088 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 06:00:05,229547 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 06:00:05,589546 (Thread-40): handling poll request
+2020-08-14 06:00:05,590187 (Thread-40): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686ba6780>]}
+2020-08-14 06:00:05,616654 (Thread-40): sending response (<Response 1230 bytes [200 OK]>) to 10.0.29.151
+2020-08-14 06:00:06,702543 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 06:00:06,703751 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 06:00:06,703824 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 06:00:07,202744 (Thread-41): handling poll request
+2020-08-14 06:00:07,203251 (Thread-41): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686c34b70>]}
+2020-08-14 06:00:07,233320 (Thread-41): sending response (<Response 1446 bytes [200 OK]>) to 10.0.8.195
+2020-08-14 06:00:08,160357 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 06:00:08,172333 (QueueFeederThread): finished collecting timing info
+2020-08-14 06:00:08,172641 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 06:00:08,172693 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select
+        bedtime_start,
+        bedtime_end,
+        bedtime_end - bedtime_start as time_in_bed,
+        to_char(duration * '1 second'::interval, 'HH24:MI:SS') as time_asleep
+    from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 06:00:08,626155 (Thread-42): handling poll request
+2020-08-14 06:00:08,626670 (Thread-42): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686ba6fd0>]}
+2020-08-14 06:00:08,656051 (QueueFeederThread): SQL status: SELECT 8 in 0.48 seconds
+2020-08-14 06:00:08,664035 (QueueFeederThread): finished collecting timing info
+2020-08-14 06:00:08,676287 (Thread-42): sending response (<Response 2776 bytes [200 OK]>) to 10.0.45.152
+2020-08-14 06:00:10,115797 (Thread-43): handling poll request
+2020-08-14 06:00:10,116310 (Thread-43): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bb4898>]}
+2020-08-14 06:00:10,146069 (Thread-43): sending response (<Response 3663 bytes [200 OK]>) to 10.0.31.22
+2020-08-14 06:00:53,30447 (Thread-44): handling status request
+2020-08-14 06:00:53,32903 (Thread-44): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bfb0f0>]}
+2020-08-14 06:00:53,63052 (Thread-44): sending response (<Response 1064 bytes [200 OK]>) to 10.0.29.198
+2020-08-14 06:00:53,489443 (Thread-45): handling run_sql request
+2020-08-14 06:00:53,490148 (Thread-45): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bb45f8>]}
+2020-08-14 06:00:53,537893 (Thread-45): sending response (<Response 136 bytes [200 OK]>) to 10.0.8.195
+2020-08-14 06:00:53,549523 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 06:00:53,550000 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 06:00:53,972914 (Thread-46): handling poll request
+2020-08-14 06:00:53,973870 (Thread-46): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686be4400>]}
+2020-08-14 06:00:54,7382 (Thread-46): sending response (<Response 1231 bytes [200 OK]>) to 10.0.6.27
+2020-08-14 06:00:55,40688 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 06:00:55,42148 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 06:00:55,42238 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 06:00:55,402229 (Thread-47): handling poll request
+2020-08-14 06:00:55,402721 (Thread-47): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b94940>]}
+2020-08-14 06:00:55,429869 (Thread-47): sending response (<Response 1446 bytes [200 OK]>) to 10.0.2.223
+2020-08-14 06:00:56,481152 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 06:00:56,497170 (QueueFeederThread): finished collecting timing info
+2020-08-14 06:00:56,497645 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 06:00:56,497719 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select
+        bedtime_start,
+        bedtime_end,
+        bedtime_end - bedtime_start as time_in_bed,
+        to_char(duration - awake * '1 second'::interval, 'HH24:MI:SS') as time_asleep
+    from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 06:00:56,805227 (Thread-48): handling poll request
+2020-08-14 06:00:56,805725 (Thread-48): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bc7470>]}
+2020-08-14 06:00:56,830504 (Thread-48): sending response (<Response 2089 bytes [200 OK]>) to 10.0.29.198
+2020-08-14 06:00:57,40622 (QueueFeederThread): Postgres error: operator does not exist: bigint - interval
+LINE 7:         to_char(duration - awake * '1 second'::interval, 'HH...
+                                 ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+2020-08-14 06:00:57,40804 (QueueFeederThread): finished collecting timing info
+2020-08-14 06:00:57,41391 (QueueFeederThread): Got an exception: Database Error
+  operator does not exist: bigint - interval
+  LINE 7:         to_char(duration - awake * '1 second'::interval, 'HH...
+                                   ^
+  HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2020-08-14 06:00:57,41630 (QueueFeederThread): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': "Database Error in rpc request (from remote system)\n  operator does not exist: bigint - interval\n  LINE 7:         to_char(duration - awake * '1 second'::interval, 'HH...\n                                   ^\n  HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.", 'raw_sql': "with sleeps as (\n    select\n        bedtime_start,\n        bedtime_end,\n        bedtime_end - bedtime_start as time_in_bed,\n        to_char(duration - awake * '1 second'::interval, 'HH24:MI:SS') as time_asleep\n    from tap_oura.sleeps\n)\n\nselect * from sleeps\nlimit 100", 'compiled_sql': "with sleeps as (\n    select\n        bedtime_start,\n        bedtime_end,\n        bedtime_end - bedtime_start as time_in_bed,\n        to_char(duration - awake * '1 second'::interval, 'HH24:MI:SS') as time_asleep\n    from tap_oura.sleeps\n)\n\nselect * from sleeps\nlimit 100", 'tags': None}, None)
+2020-08-14 06:00:58,262412 (Thread-49): handling poll request
+2020-08-14 06:00:58,263099 (Thread-49): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bafdd8>]}
+2020-08-14 06:00:58,288029 (Thread-49): sending response (<Response 7438 bytes [200 OK]>) to 10.0.44.84
+2020-08-14 06:01:16,333210 (Thread-50): handling status request
+2020-08-14 06:01:16,335579 (Thread-50): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bd29e8>]}
+2020-08-14 06:01:16,364550 (Thread-50): sending response (<Response 1064 bytes [200 OK]>) to 10.0.6.139
+2020-08-14 06:01:16,834252 (Thread-51): handling run_sql request
+2020-08-14 06:01:16,834915 (Thread-51): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bd2160>]}
+2020-08-14 06:01:17,163812 (Thread-51): sending response (<Response 136 bytes [200 OK]>) to 10.0.44.84
+2020-08-14 06:01:17,177801 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 06:01:17,178285 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 06:01:17,683502 (Thread-52): handling poll request
+2020-08-14 06:01:17,684247 (Thread-52): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b4de80>]}
+2020-08-14 06:01:17,716138 (Thread-52): sending response (<Response 1231 bytes [200 OK]>) to 10.0.44.84
+2020-08-14 06:01:18,648382 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 06:01:18,649933 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 06:01:18,650047 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 06:01:19,292255 (Thread-53): handling poll request
+2020-08-14 06:01:19,292905 (Thread-53): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b4d0f0>]}
+2020-08-14 06:01:19,323925 (Thread-53): sending response (<Response 1446 bytes [200 OK]>) to 10.0.20.65
+2020-08-14 06:01:20,81650 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 06:01:20,101318 (QueueFeederThread): finished collecting timing info
+2020-08-14 06:01:20,101768 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 06:01:20,101843 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select
+        bedtime_start,
+        bedtime_end,
+        bedtime_end - bedtime_start as time_in_bed,
+        to_char((duration - awake) * '1 second'::interval, 'HH24:MI:SS') as time_asleep
+    from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 06:01:20,565276 (QueueFeederThread): SQL status: SELECT 8 in 0.46 seconds
+2020-08-14 06:01:20,580721 (QueueFeederThread): finished collecting timing info
+2020-08-14 06:01:20,754602 (Thread-54): handling poll request
+2020-08-14 06:01:20,755345 (Thread-54): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bf8518>]}
+2020-08-14 06:01:20,794409 (Thread-54): sending response (<Response 6111 bytes [200 OK]>) to 10.0.29.151
+2020-08-14 06:06:36,40813 (Thread-55): handling status request
+2020-08-14 06:06:36,43806 (Thread-55): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b5c7b8>]}
+2020-08-14 06:06:36,69482 (Thread-55): sending response (<Response 1064 bytes [200 OK]>) to 10.0.36.160
+2020-08-14 06:06:36,649740 (Thread-56): handling run_sql request
+2020-08-14 06:06:36,650540 (Thread-56): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bf8a58>]}
+2020-08-14 06:06:36,686799 (Thread-56): sending response (<Response 136 bytes [200 OK]>) to 10.0.2.223
+2020-08-14 06:06:36,698850 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 06:06:36,704025 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 06:06:37,193054 (Thread-57): handling poll request
+2020-08-14 06:06:37,193894 (Thread-57): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686bf8a58>]}
+2020-08-14 06:06:37,226453 (Thread-57): sending response (<Response 1231 bytes [200 OK]>) to 10.0.15.34
+2020-08-14 06:06:38,190166 (QueueFeederThread): Found 6 models, 0 tests, 0 snapshots, 0 analyses, 120 macros, 0 operations, 0 seed files, 0 sources
+2020-08-14 06:06:38,191303 (QueueFeederThread): Acquiring new postgres connection "rpc.my_new_package.request".
+2020-08-14 06:06:38,191397 (QueueFeederThread): Opening a new connection, currently in state init
+2020-08-14 06:06:38,682715 (Thread-58): handling poll request
+2020-08-14 06:06:38,683393 (Thread-58): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b57b00>]}
+2020-08-14 06:06:38,713470 (Thread-58): sending response (<Response 1446 bytes [200 OK]>) to 10.0.34.28
+2020-08-14 06:06:39,600650 (QueueFeederThread): Compiling rpc.my_new_package.request
+2020-08-14 06:06:39,620016 (QueueFeederThread): finished collecting timing info
+2020-08-14 06:06:39,620474 (QueueFeederThread): Using postgres connection "rpc.my_new_package.request".
+2020-08-14 06:06:39,620557 (QueueFeederThread): On rpc.my_new_package.request: /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "user", "target_name": "default", "node_id": "rpc.my_new_package.request"} */
+with sleeps as (
+    select
+        summary_date,
+        bedtime_start,
+        bedtime_end,
+        bedtime_end - bedtime_start as time_in_bed,
+        to_char((duration - awake) * '1 second'::interval, 'HH24:MI:SS') as time_asleep
+    from tap_oura.sleeps
+)
+
+select * from sleeps
+limit 100
+2020-08-14 06:06:40,77499 (QueueFeederThread): SQL status: SELECT 8 in 0.46 seconds
+2020-08-14 06:06:40,92150 (QueueFeederThread): finished collecting timing info
+2020-08-14 06:06:40,139583 (Thread-59): handling poll request
+2020-08-14 06:06:40,140279 (Thread-59): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b57b00>]}
+2020-08-14 06:06:40,175962 (Thread-59): sending response (<Response 6377 bytes [200 OK]>) to 10.0.20.65
+2020-08-14 06:08:10,40620 (Thread-60): handling status request
+2020-08-14 06:08:10,43325 (Thread-60): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2b739379-88f0-4b76-8e59-0616fa44f0f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686b4d978>]}
+2020-08-14 06:08:10,67677 (Thread-60): sending response (<Response 1064 bytes [200 OK]>) to 10.0.6.27
